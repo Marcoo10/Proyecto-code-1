@@ -105,6 +105,11 @@ margin: 0px;
     color: black;
 
 }
+.title_footer{
+    font-family: 'Anton', sans-serif;
+    padding-left: 555px;
+    transform: translateX(50px);
+}
 @media screen and (max-width:768px){
     .title2{
         font-family: 'Anton', sans-serif;
