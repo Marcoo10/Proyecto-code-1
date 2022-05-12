@@ -110,6 +110,10 @@ margin: 0px;
     padding-left: 555px;
     transform: translateX(50px);
 }
+ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
 @media screen and (max-width:768px){
     .title2{
         font-family: 'Anton', sans-serif;
