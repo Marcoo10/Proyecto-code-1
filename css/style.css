@@ -16,11 +16,15 @@ margin: 0px;
 }
 
 .image1{padding-left: 40px;
+    height: 500px;
+    width: 500px;
 
 }
 
 .image2{
     padding-left: 40px;
+    height: 500px;
+    width: 500px;
 }
 
 .header{
@@ -31,6 +35,7 @@ margin: 0px;
     justify-content: space-between;
     align-items: center;
     padding-right: 450px;
+    width: 100%;
 }
 
 .nav{
@@ -112,7 +117,7 @@ margin: 0px;
 }
 .title_footer{
     font-family: 'Anton', sans-serif;
-    padding-left: 555px;
+    padding-left: 545px;
     transform: translateX(50px);
 
 }
@@ -227,7 +232,127 @@ ul{
         flex-direction: column;
     
     }
+    .nav_enlace:hover{
+        color: grey;
+        opacity: 1;
+    }
      
+}
+@media screen and (max-width:320px){
+    .title2{
+        font-family: 'Anton', sans-serif;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .image1{padding-left: 0px;
+        height: 275px;
+        width: 275px;
 
+    
+    }
+    
+    .image2{
+        padding-left: 0px;
+        height: 275px;
+        width: 275px;
+    }
+    
+    .header{
+        background-color: rgb(235, 235, 235);
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 70px;
+        width: 100%;
+    }
+    .title{
+        font-family: 'Anton', sans-serif;
+        padding-left: 0px;
+        transform: translateX(50px);
+        padding-right: 40px;
+    }
+    .nav{
+        padding: 1rem;
+        display: flex;
+    }
+    
+    .navlist{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+        gap: 10px;
+        padding-left: 50px;
+        
+    }
+    
+    .navitem{
+        margin-left: 1px;
+    }
+    
+    .nav_enlace{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    .footer{
+        background-color: rgb(235, 235, 235);
+        margin: 0px;
+        width: 100%;
+    }
+    .footer_navitem{
+        margin-left: 200px;  
+    }
+    .navlist_redes{
+        padding-left: 0px;
+    }
+    .footer_nav_enlace{
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    .navlist_redes{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        flex-direction: row;
+        padding-left: 30px;
+    
+    }
+    
+    .navitem_redes{
+        margin-left: 16px;
+    
+    }
+    
+    .nav_enlace_redes{
+        text-decoration: none;
+        color: black;
+    
+    }
+    .title_footer{
+        font-family: 'Anton', sans-serif;
+        padding-left: 10px;
+        transform: translateX(50px);
+
+    }
+    .footer_navlist{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 10px;
+        padding-left: 0px;
+        padding-right: 300px;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .nav_enlace:hover{
+        color: grey;
+        opacity: 1;
+    }
 
 }
