@@ -57,6 +57,11 @@ margin: 0px;
     color: rgb(0, 0, 0);
 }
 
+.nav_enlace:hover{
+    color: grey;
+    opacity: 1;
+}
+
 .footer{
     background-color: rgb(235, 235, 235);
     margin: 0px;
@@ -109,6 +114,7 @@ margin: 0px;
     font-family: 'Anton', sans-serif;
     padding-left: 555px;
     transform: translateX(50px);
+
 }
 ul{
     margin-bottom: 0;

@@ -26,6 +26,11 @@ body{
     padding: 1rem;
     display: flex;
 }
+
+.nav_enlace:hover{
+    color: grey;
+    opacity: 1;
+}
 .navlist{
     display: flex;
     flex-direction: row;
